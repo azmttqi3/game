@@ -11,7 +11,7 @@ public class GuntingBatuKertas {
         int pemainScore = 0;
         int komputerScore = 0;
         int roundCount = 1;
-        final int WINNING_SCORE = 4;
+        final int WINNING_SCORE = 3;
 
         System.out.println("--- Welcome To Game BATU, GUNTING, KERTAS! ---");
         System.out.print("Masukan namamu: ");
