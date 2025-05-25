@@ -11,14 +11,14 @@ public class GuntingBatuKertas {
         int pemainScore = 0;
         int komputerScore = 0;
         int roundCount = 1;
-        final int WINNING_SCORE = 3;
+        final int WINNING_SCORE = 4;
 
         System.out.println("--- Welcome To Game BATU, GUNTING, KERTAS! ---");
         System.out.print("Masukan namamu: ");
         String pemainNama = input.nextLine();
 
         System.out.println("Halo, " + pemainNama + "! Mari Bermain!");
-        System.out.println("Siapa yang mencapai " + WINNING_SCORE + "kemenangan pertama, dia pemenangnya!");
+        System.out.println("Siapa yang mencapai " + WINNING_SCORE + " kemenangan pertama, dia pemenangnya!");
 
         //perulangan utama game: akan terus berjalan selama belum ada yang mencapai WINNING_SCORE
         while (pemainScore < WINNING_SCORE && komputerScore < WINNING_SCORE){
